@@ -485,7 +485,7 @@ input:checked + label .description {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 800px; /* Limit the width */
+  max-width: 1000px; /* Limit the width */
   margin: 0 auto; /* Center it */
 }
 
@@ -571,5 +571,10 @@ input:checked + label .description {
 
 .contact-button:hover {
   background-color: rgba(245, 242, 247, 0.8);
+}
+
+.footer {
+  padding-top: 20px; /* Add padding at the top */
+  margin-top: 20px;  /* Add margin to separate it */
 }
 
