@@ -52,6 +52,7 @@ body {
   top:-45px;
   position: relative;
   top: 0; /* Set to 0 */
+  margin-top:100px;
 }
 
 .banner-txt {
@@ -162,6 +163,16 @@ img {
   z-index: var(--z-fixed);
   transition: .4s;
 }
+
+.container.section.section__height {
+  padding-top: 100px; /* Adjust this value as needed */
+}
+.banner-img {
+  position:absolute;
+  margin-top: 88px; /* Ensure this is 0 */
+}
+
+
 
 /*=============== NAV ===============*/
 .nav {
@@ -286,6 +297,11 @@ img {
     justify-content: center;
     gap: 3rem; /* Consistent spacing between items */
   }
+}
+
+.container.section.section__height{
+  padding-top:0px;
+
 }
 
 @media screen and (min-width: 767px) {
