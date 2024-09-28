@@ -50,16 +50,26 @@
 
     
         <!--=============== HOME ===============-->
+        
         <section class="container section section__height" id="home">
             <div class="banner-img">
                 <img src="main.png" alt="main" class="main">
                 <div class="banner-txt">
-                   
-                     <h1>Celebrate Life's Special Moments</h1>
-                     <p> A Touch of Magic for Every Celebration !!</p>
+                    <h1>Celebrate Life's Special Moments</h1>
+                    <p>A Touch of Magic for Every Celebration !!</p>
+                    <button class="contact-us-btn" onclick="scrollToFooter()">Contact Us</button>
                 </div>
             </div> 
         </section>
+
+        <script>
+            function scrollToFooter() {
+                const footer = document.querySelector('.footer');
+                footer.scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+        
+        
 
         <!--=============== service-offered ===============-->
         
