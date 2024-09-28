@@ -130,6 +130,30 @@ img {
   height: auto;
 }
 
+body {
+  background-color: #FFFFFF; /* Change background to white */
+  color: #000000; /* Set text color to black */
+}
+
+.contact-us-btn {
+  display: block;
+  margin: 250px auto; /* Center the button */
+  padding: 12px 24px; /* Make the button a bit bigger */
+  background-color: #fafaf9; /* Black background */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #060606; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-us-btn:hover {
+  background-color: #535252; /* Darker shade on hover */
+}
+
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
